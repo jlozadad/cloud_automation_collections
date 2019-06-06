@@ -1,0 +1,23 @@
+---
+
+namespace: "redhat-ansible-practice"
+name: "cloud_automation_collection"
+version: "0.1"
+readme: "README.md"
+authors:
+    - "jlozadad"
+    #- "Author2 (http://author2.example.com)"
+      #- "Author3 <author3@example.com>"
+dependencies:
+    "freeipa.ansible_freeipa": ">=0.1.1"
+    #"other_namespace.collection2": ">=2.0.0,<3.0.0"
+    #"anderson55.my_collection": "*"    # note: "*" selects the highest version available
+license:
+    - "GPLv3"
+tags:
+  - redhat-ansible-practice
+  - cloud_automation_collection
+repository: "https://www.github.com/my_org/my_collection"
+documentation: "http://my-docs.example.com"
+homepage: "http://www.example.com"
+issues: "https://www.github.com/my_org/my_collection/issues"
